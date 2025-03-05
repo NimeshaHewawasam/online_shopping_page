@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Shopping</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+        }
+        .header {
+            background-color: #333;
+            color: white;
+            padding: 15px;
+            text-align: center;
+            font-size: 24px;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+        .product {
+            background-color: white;
+            border: 1px solid #ddd;
+            margin: 10px;
+            padding: 15px;
+            width: 250px;
+            text-align: center;
+            box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+        }
+        .product img {
+            width: 100%;
+            height: auto;
+        }
+        .product button {
+            background-color: #28a745;
+            color: white;
+            padding: 10px;
+            border: none;
+            cursor: pointer;
+        }
+        .product button:hover {
+            background-color: #218838;
+        }
+        .footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            width: 100%;
+            position: relative;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="header">Online Shopping</div>
+    <div class="container">
+        <div class="product">
+            <img src="img/bag.jpg" alt="Product 1">
+            <h2>Product 1</h2>
+            <p>$10.00</p>
+            <button>Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="img/frocks.jpg" alt="Product 2">
+            <h2>Product 2</h2>
+            <p>$15.00</p>
+            <button>Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="img/shoes.jpg" alt="Product 3">
+            <h2>Product 3</h2>
+            <p>$20.00</p>
+            <button>Add to Cart</button>
+        </div>
+    </div>
+    <div class="footer">&copy; 2025 Online Shopping. All rights reserved.</div>
+</body>
+</html>
